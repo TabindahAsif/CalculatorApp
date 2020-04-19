@@ -14,13 +14,13 @@ You can use this project by cloning or checking out.
 ### Check out in Android Studio.
 Follow these furhter steps to checkout and use in android studio.
 
-1. Open Android Studio and select ** Check out project from version ** then ** Git **
+1. Open Android Studio and select **Check out project from version** then **Git**
  ![Checkout](https://github.com/TabindahAsif/CalculatorApp/blob/master/checkout.png)
 
-2. Now enter this URL [https://github.com/TabindahAsif/CalculatorApp.git](https://github.com/TabindahAsif/CalculatorApp.git) ** and select the directory where you want to save it then click on clone.** 
+2. Now enter this URL [https://github.com/TabindahAsif/CalculatorApp.git](https://github.com/TabindahAsif/CalculatorApp.git) **and select the directory where you want to save it then click on clone.** 
  ![URL](https://github.com/TabindahAsif/CalculatorApp/blob/master/clone.png)
 
-3. After successfull Checkout you can open this project by click ** Yes ** on this prompt.
+3. After successfull Checkout you can open this project by click **Yes** on this prompt.
  ![Open](https://github.com/TabindahAsif/CalculatorApp/blob/master/open.png)
 
 4. After Editing or adding new Feature, You can update this Repository by Selecting Commiting and Pushing.
