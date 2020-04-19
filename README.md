@@ -30,7 +30,7 @@ Follow these furhter steps to checkout and use in android studio.
 
 ### These are the Technical details of above point given in Learning.
 
-1. Created a ** BtnController ** class which will implement OnClickListener, by doing so we can provide single listener to multiple views.
+1. Created a **BtnController** class which will implement OnClickListener, by doing so we can provide single listener to multiple views.
 ```java
 class BtnController implements OnClickListener { }
 ```
@@ -55,7 +55,8 @@ public void onClick(View v) {
         ScreenResult.setText(toAppend);
     } catch (Exception e) {
 
-}```
+}
+```
 
 3. In the onCreate of Activity class we maded an instance of above btnController and set it on every relevent view.
 ```java
@@ -69,9 +70,9 @@ this.one.setOnClickListener(btnC);
 expression += ScreenResult.getText();
 String[] values = expression.split("[\\+\\-\\*\\/]");
 ```
-above code get user expression, and regex expression told it to break string if found one of any ** + - * / ** , suppose expression is ** 1 + 1 ** so the split will give us array like ** ["1" , "1"] **
+above code get user expression, and regex expression told it to break string if found one of any **+ - * /** , suppose expression is **1 + 1** so the split will give us array like **["1" , "1"]**
 
-5. Now we have each value in ** value ** array, so now we proceed to evaluating.
+5. Now we have each value in **value** array, so now we proceed to evaluating.
 ```java
 Double val1 = Double.parseDouble(values[0]);
 Double val2 = Double.parseDouble(values[1]);
@@ -85,9 +86,9 @@ if (expression.indexOf('+') != -1) {
     res = val1 / val2;
 }
 ```
-As we support simple expression like ** 1 + 1 **, So in above code we seacrh for operator in origional expression string, then proceed it on previously splitted values.
+As we support simple expression like **1 + 1**, So in above code we seacrh for operator in origional expression string, then proceed it on previously splitted values.
 
 ## Thats All :-) , you can find out further details by reviwinf the code.
 
 ## This is Main Screen
- ![Preview](https://github.com/muhammadsalman241/contextAwareWebService/blob/master/preview.png)
+ ![Preview](https://github.com/TabindahAsif/CalculatorApp/blob/master/preview.png)
